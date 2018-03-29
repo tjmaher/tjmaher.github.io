@@ -9,11 +9,14 @@ http://www.tjmaher.com/2015/01/the-life-of-manual-tester.html \-\--\
 # What is a QA Engineer?
 
 You may have noticed on your neighborhood software development team a
-few people where coding the product isn't their main role. They aren't
-artists, so you know they aren\'t web designers on the User Experience
-team designing the user interface. They don\'t usually gather the
-initial business requirements, so they aren\'t business analysts. And
-every other word they talk about contains the word "test": Test
+few people where coding the product isn't their main role. 
+
+They aren't artists, so you know they aren\'t web designers on the User Experience
+team designing the user interface. 
+
+They don\'t usually gather the initial business requirements, so they aren\'t business analysts. 
+
+And every other word they talk about contains the word "test": Test
 Matrix, browser testing, test strategies, test cases, test scripts,
 regression testing. They are the Software Quality Assurance Engineers.
 
@@ -21,7 +24,6 @@ Yes, quality is everybody\'s job, but the QA Engineers are responsible
 for keeping the software testing effort and the SQA process running
 smoothly. Quality exists in the minds of all the major stakeholders
 vested in the software product everyone is attempting to build.
-
 
 * They try to keep the wants and needs of the end-user in mind, the
     person who is going to use the product. Is the product usable? Is it
@@ -104,8 +106,6 @@ How would you go about testing it?
     textbox such as \"\@DROP TABLES MEMBER\", does the code get
     executed?
 
-\
-\
 
   ---------------------------------------------------------------------------------------------------------------------------------------
    [![](http://imgs.xkcd.com/comics/exploits_of_a_mom.png){width="400" height="122"}](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
@@ -132,7 +132,8 @@ How would you go about testing it?
     logged in?
 * What happens if many people are attempting to log in at the same
     time?
-* ... All of these tests could be performed as manual testing,
+
+... All of these tests could be performed as manual testing,
     meaning that you as a software tester could perform all of these
     actions just as an end user would, interacting with the Login screen
     with a browser, a mouse, and a keyboard. No programming necessary.
