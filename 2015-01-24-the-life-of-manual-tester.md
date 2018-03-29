@@ -107,10 +107,9 @@ How would you go about testing it?
     executed?
 
 
-  ---------------------------------------------------------------------------------------------------------------------------------------
+ 
    [![](http://imgs.xkcd.com/comics/exploits_of_a_mom.png){width="400" height="122"}](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
-                         [From XKCD.com, <http://xkcd.com/327/>]{style="font-size: xx-small; text-align: start;"}
-  ---------------------------------------------------------------------------------------------------------------------------------------
+                         [From XKCD.com, <http://xkcd.com/327/>]
 
 
 * What happens if someone enters \<script\>alert(\"Cross-Site
