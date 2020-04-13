@@ -1,10 +1,43 @@
 <html>
-
-<table id="balances">
-   <tr><td id="lbl_val_1">Value 1</td>
-       <td id="txt_val_1">$122,365.24</td>
+<h1>Solve the following problem:</h1>
+<p>Utilizing Ruby, Cucumber, and the Page Object Model:
+<ul>
+<li>Create feature files to support objectives</li>
+<li>Create custom steps which will support the feature files</li>
+<li>Create page object class to support custom steps</li>
+<li>Create any supporting utils to support the page class</li>
+</ul>
+</p>
+<table id="values" border="1">
+   <tr><td id="lbl_val_1" width="100">Value 1</td>
+       <td id="txt_val_1" width="100" align="right">$122,365.24</td>
    </tr>
+   <tr><td id="lbl_val_2" width="100">Value 2</td>
+       <td id="txt_val_2" width="100" align="right">$559.00</td>
+   </tr>
+   <tr><td id="lbl_val_3" width="100">Value 3</td>
+       <td id="txt_val_3" width="100" align="right">$850,139.99</td>
+   </tr>
+   <tr><td id="lbl_val_4" width="100">Value 4</td>
+       <td id="txt_val_4" width="100" align="right">$23,329.50</td>
+   </tr>
+   <tr><td id="lbl_val_5" width="100">Value 5</td>
+       <td id="txt_val_5" width="100" align="right">$566.27</td>
+   </tr>
+</table>
+<table id="totals" border="1">
+  <tr><td id="lbl_ttl_val" width="100">Total Balance</td>
+      <td id="txt_ttl_val" width="200" align="right">$1,000,000.00</td>
+  </tr>
 
 </table>
-
+<p>
+Objectives:
+<ul>
+<li>Need to verify the right count of values appear on the screen</li>
+<li>Need to verify the values on the screen are greater than 0</li>
+<li>Need to verify the total balance is corrrect based on the values listed on the screen.</li>
+<li>Need to verify the total balance matches the sum of the values</li>
+</ul>
+</p>
 </html>
